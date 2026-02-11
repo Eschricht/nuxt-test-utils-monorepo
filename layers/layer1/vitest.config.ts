@@ -3,9 +3,6 @@ import { defineVitestProject } from '@nuxt/test-utils/config'
 
 export default defineVitestProject({
   root: fileURLToPath(new URL('.', import.meta.url)),
-  optimizeDeps: {
-    exclude: ['@nuxt/ui', '@nuxt/color-mode']
-  },
   test: {
     name: 'composable-nuxt',
     include: ['test/nuxt/**/*.{test,spec}.ts'],

@@ -4,7 +4,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "test": "vitest run"
+    "test": "vitest run",
+    "prepare": "pnpm --filter './layers/*' run dev:prepare"
   },
   "devDependencies": {
     "@nuxt/test-utils": "^4.0.0",
