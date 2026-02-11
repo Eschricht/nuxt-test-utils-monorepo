@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-test-utils-monorepo",
+  "description": "Issue reproduction for monorepo with nuxt-test-utils",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@nuxt/test-utils": "^4.0.0",
+    "@vue/test-utils": "^2.4.6",
+    "happy-dom": "^20.6.1",
+    "playwright-core": "^1.58.2",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  }
+}
